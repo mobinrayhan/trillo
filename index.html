@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>trillo &mdash; Your all-in-one booking app</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="./img/logo.png" alt="Trello Logo" class="logo" />
+
+        <form action="#" class="search">
+          <input type="text" placeholder="Search hotel" class="search__input" />
+          <button class="search__button">
+            <img
+              src="./img/svg/search-outline.svg"
+              alt="Search all  booking"
+              class="search__icon"
+            />
+          </button>
+        </form>
+
+        <nav class="user-nav">
+          <div class="user-nav__icon-box">
+            <img
+              src="./img/svg/bookmark-outline.svg"
+              class="user-nav__icon"
+              alt="Bookmark Icon"
+            />
+            <span class="user-nav__notification"> 7 </span>
+          </div>
+          <div class="user-nav__icon-box">
+            <img
+              src="./img/svg/chatbox-outline.svg"
+              class="user-nav__icon"
+              alt="Chat Icon"
+            />
+            <span class="user-nav__notification"> 9+ </span>
+          </div>
+          <div class="user-nav__icon-box">
+            <img
+              src="./img/1.jpg"
+              alt="Mobin's Picture . the creator of this application "
+              class="user-nav__user"
+            />
+            <span class="user-nav__user-name">Mobin</span>
+          </div>
+        </nav>
+      </header>
+
+      <div class="content">
+        <nav class="side-bar">
+          <ul class="side-nav">
+            <li class="side-nav__item side-nav__item--active">
+              <a href="#" class="side-nav__link"
+                ><img
+                  src="./img/svg/home-outline.svg"
+                  alt=""
+                  class="side-nav__icon"
+                />
+                <span>Hotel</span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <img
+                  src="./img/svg/airplane-outline.svg"
+                  alt=""
+                  class="side-nav__icon"
+                />
+                <span>Flight</span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <img
+                  src="./img/svg/key-outline.svg"
+                  alt=""
+                  class="side-nav__icon"
+                />
+                <span>Car Rental</span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <img
+                  src="./img/svg/map-outline.svg"
+                  alt=""
+                  class="side-nav__icon"
+                />
+                <span>Tours</span>
+              </a>
+            </li>
+          </ul>
+
+          <small class="legal"
+            >&copy; 2024 by Trello. From Jonas and Mobin💖</small
+          >
+        </nav>
+
+        <main class="hotel-view">
+          <section class="gallery">
+            <figure class="gellery-item">
+              <img
+                class="gallery__photo"
+                alt="Hotel Image 1"
+                src="./img/hotel-1.jpg"
+              />
+            </figure>
+            <figure>
+              <img
+                class="gallery__photo"
+                alt="Hotel Image 2"
+                src="./img/hotel-2.jpg"
+              />
+            </figure>
+            <figure>
+              <img
+                class="gallery__photo"
+                alt="Hotel Image 3"
+                src="./img/hotel-3.jpg"
+              />
+            </figure>
+          </section>
+
+          <section class="overview">
+            <h1 class="overview__heading">HOTEL LAS PALMAS</h1>
+
+            <div class="overview__stars">
+              <img
+                src="./img/svg/star.svg"
+                class="overview__stars-icon"
+                alt="Review Star 1"
+              />
+              <img
+                src="./img/svg/star.svg"
+                class="overview__stars-icon"
+                alt="Review Star 1"
+              />
+              <img
+                src="./img/svg/star.svg"
+                class="overview__stars-icon"
+                alt="Review Star 1"
+              />
+              <img
+                src="./img/svg/star.svg"
+                class="overview__stars-icon"
+                alt="Review Star 1"
+              />
+              <img
+                src="./img/svg/star.svg"
+                class="overview__stars-icon"
+                alt="Review Star 1"
+              />
+            </div>
+
+            <div class="overview__location">
+              <img
+                class="overview__location-icon"
+                src="./img/svg/location.svg"
+                alt="Location Icon"
+              />
+              <button class="btn-inline">Dhaka, Bangladesh</button>
+            </div>
+
+            <div class="overview__rating">
+              <h3>4.6</h3>
+              <span>420 votes</span>
+            </div>
+          </section>
+
+          <section class="detail">
+            <div class="description">
+              <div class="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+                nisi dignissimos debitis ratione sapiente saepe. Accusantium c
+              </div>
+              <div class="paragraph">
+                Accusantium cumque, quas, ut corporis incidunt deserunt quae
+                architecto voluptate delectus, inventore iure aliquid aliquam.
+              </div>
+
+              <ul class="list">
+                <li>Close to the beach</li>
+                <li>Free airport shuttle</li>
+                <li>Air conditioning and heating</li>
+                <li>We speak all languages</li>
+                <li>Breakfast included</li>
+                <li>Free wifi in all rooms</li>
+                <li>Pets allowed</li>
+                <li>Perfect for families</li>
+              </ul>
+
+              <div class="recommend">
+                <div class="recommend__count">
+                  Lucy and 3 other friends recommend this hotel.
+                </div>
+                <div class="recommend__friend">
+                  <img src="./img/user-1.jpg" alt="Recommend user 1" />
+                  <img src="./img/user-2.jpg" alt="Recommend user 2" />
+                  <img src="./img/user-3.jpg" alt="Recommend user 3" />
+                  <img src="./img/user-4.jpg" alt="Recommend user 4" />
+                </div>
+              </div>
+            </div>
+
+            <div class="user-review">
+              <figure class="review">
+                <blockquote class="review__text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Ratione saepe eligendi, tenetur nisi impedit adipisci.
+                </blockquote>
+
+                <figcaption class="review__user">
+                  <img
+                    src="./img/user-1.jpg"
+                    alt="User 1"
+                    class="review__photo"
+                  />
+
+                  <div class="review__user-box">
+                    <p class="review__user-name">Nick Smith</p>
+                    <p class="review__user-date">3rd Feb, 2024</p>
+                  </div>
+
+                  <h3 class="review__rating">7.8</h3>
+                </figcaption>
+              </figure>
+              <figure class="review">
+                <blockquote class="review__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+                  doloremque architecto dicta animi.
+                </blockquote>
+
+                <figcaption class="review__user">
+                  <img
+                    src="./img/user-2.jpg"
+                    alt="User 1"
+                    class="review__photo"
+                  />
+
+                  <div class="review__user-box">
+                    <p class="review__user-name">Mary Smith</p>
+                    <p class="review__user-date">3rd Feb, 2024</p>
+                  </div>
+
+                  <h3 class="review__rating">8.2</h3>
+                </figcaption>
+              </figure>
+
+              <button class="btn-inline">Show all <span>&rarr;</span></button>
+            </div>
+          </section>
+
+          <div class="cta">
+            <h2 class="cta__book-now">
+              GOOD NEWS! WE HAVE 4 FREE ROOMS FOR YOUR SELECTED DATES!
+            </h2>
+            <button class="btn">
+              <span class="btn__visible">book now </span>
+              <span class="btn__invisible">4 rooms left</span>
+            </button>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
